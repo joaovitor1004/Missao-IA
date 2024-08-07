@@ -10,11 +10,17 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Isso é assustador!",
-                afirmacao: "afirmacao"
+                afirmacao: [
+                    "No início ficou com medo do que essa tecnologia pode fazer.",
+                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                ]
             },
             {
                 texto: "Isso é maravilhoso!",
-                afirmacao: "afirmacao"
+                afirmacao: [
+                    "Quis saber como usar IA no seu dia a dia.",
+                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                ]
             }
         ]
     },
@@ -22,8 +28,12 @@ const perguntas = [
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao: "afirmacao"
+                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                afirmacao: [
+                    "Conseguiu utilizar a IA para buscar informações úteis.",
+                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet (falta texto).",
+                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada (falta texto)."
+                ]
             },
             {
                 texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
